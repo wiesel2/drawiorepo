@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-26T15:36:21.879Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36" etag="TAVE8I0fr1uqzpKXeKfJ" version="13.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-26T16:03:40.760Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36" etag="R2_hhsrS_scJ0_zncG1b" version="13.8.3" type="github">
   <diagram id="3XZbq0A8SDSQ7AV5eELt" name="Page-1">
     <mxGraphModel dx="788" dy="493" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -6,14 +6,14 @@
         <mxCell id="1" parent="0" />
         <mxCell id="SC7nwVs_Fwgo8GqyQrD0-75" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="150" y="660" as="sourcePoint" />
-            <mxPoint x="930" y="660" as="targetPoint" />
+            <mxPoint x="150" y="659.58" as="sourcePoint" />
+            <mxPoint x="1190" y="659.58" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="SC7nwVs_Fwgo8GqyQrD0-83" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="160" y="609" as="sourcePoint" />
-            <mxPoint x="930" y="609" as="targetPoint" />
+            <mxPoint x="150" y="608.58" as="sourcePoint" />
+            <mxPoint x="1170" y="608.58" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="SC7nwVs_Fwgo8GqyQrD0-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SC7nwVs_Fwgo8GqyQrD0-4" target="SC7nwVs_Fwgo8GqyQrD0-5">
@@ -67,9 +67,6 @@
         <mxCell id="SC7nwVs_Fwgo8GqyQrD0-19" value="分发" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="690" y="690" width="50" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="SC7nwVs_Fwgo8GqyQrD0-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="SC7nwVs_Fwgo8GqyQrD0-22" target="SC7nwVs_Fwgo8GqyQrD0-25">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="SC7nwVs_Fwgo8GqyQrD0-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="SC7nwVs_Fwgo8GqyQrD0-25">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="760.3333333333335" y="530" as="targetPoint" />
@@ -79,7 +76,13 @@
           <mxGeometry x="720" y="570" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="SC7nwVs_Fwgo8GqyQrD0-34" value="发布" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="SC7nwVs_Fwgo8GqyQrD0-27" target="SC7nwVs_Fwgo8GqyQrD0-33">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="785" y="630" />
+              <mxPoint x="680" y="630" />
+              <mxPoint x="680" y="635" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="SC7nwVs_Fwgo8GqyQrD0-27" value="hive/hbase&lt;br&gt;fastdfs/ceph" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="750" y="640" width="70" height="40" as="geometry" />
@@ -113,7 +116,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SC7nwVs_Fwgo8GqyQrD0-40" value="数据平台" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="209" y="673" width="225" height="30" as="geometry" />
+          <mxGeometry x="209" y="680" width="221" height="23" as="geometry" />
         </mxCell>
         <mxCell id="SC7nwVs_Fwgo8GqyQrD0-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="SC7nwVs_Fwgo8GqyQrD0-41" target="SC7nwVs_Fwgo8GqyQrD0-40">
           <mxGeometry relative="1" as="geometry" />
@@ -123,8 +126,8 @@
         </mxCell>
         <mxCell id="SC7nwVs_Fwgo8GqyQrD0-44" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="160" y="550" as="sourcePoint" />
-            <mxPoint x="940" y="550" as="targetPoint" />
+            <mxPoint x="150" y="550" as="sourcePoint" />
+            <mxPoint x="1170" y="550" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="SC7nwVs_Fwgo8GqyQrD0-45" value="上层应用" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -163,8 +166,11 @@
         <mxCell id="SC7nwVs_Fwgo8GqyQrD0-74" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="150" y="720" as="sourcePoint" />
-            <mxPoint x="930" y="720" as="targetPoint" />
+            <mxPoint x="1190" y="720" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="SC7nwVs_Fwgo8GqyQrD0-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SC7nwVs_Fwgo8GqyQrD0-22" target="SC7nwVs_Fwgo8GqyQrD0-25">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SC7nwVs_Fwgo8GqyQrD0-22" value="消息队列" style="rounded=1;whiteSpace=wrap;html=1;arcSize=48;" vertex="1" parent="1">
           <mxGeometry x="827" y="599" width="63" height="20" as="geometry" />
@@ -191,6 +197,24 @@
         </mxCell>
         <mxCell id="SC7nwVs_Fwgo8GqyQrD0-90" value="5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;" vertex="1" parent="1">
           <mxGeometry x="164" y="505" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SC7nwVs_Fwgo8GqyQrD0-91" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;" vertex="1" parent="1">
+          <mxGeometry x="164" y="860" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SC7nwVs_Fwgo8GqyQrD0-92" value="爬虫层&lt;br&gt;特点：&amp;nbsp;&lt;br&gt;1. 数据异构，迭代快，不适合使用关系型数据库&lt;br&gt;2. 反爬手段多，必须使用高匿代理下载数据&lt;br&gt;&lt;br&gt;非技术问题：&lt;br&gt;1. 合规性，解决方案：&lt;br&gt;&amp;nbsp; &amp;nbsp; - 高匿代理&lt;br&gt;&amp;nbsp; &amp;nbsp; - 外部合作购买数据&lt;br&gt;&amp;nbsp;&lt;br&gt;&lt;br&gt;主要技术方向：&lt;br&gt;1. 代理服务：代理收集、并发使用管理等&lt;br&gt;2. JS运行时服务：辅助破解JS&lt;br&gt;3. 去重服务： 布隆/布谷鸟过滤器&lt;br&gt;4. 消息队列：用于分布式抓取" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="209" y="860" width="331" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="SC7nwVs_Fwgo8GqyQrD0-94" value="抓取、结构化、清洗" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="920" y="740" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SC7nwVs_Fwgo8GqyQrD0-95" value="清洗、去重、存储、分发、算法解析" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="930" y="681.75" width="200" height="21.25" as="geometry" />
+        </mxCell>
+        <mxCell id="SC7nwVs_Fwgo8GqyQrD0-97" value="版本管理、数据治理、数据维护、数据资产管理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="930" y="619" width="270" height="25.62" as="geometry" />
+        </mxCell>
+        <mxCell id="SC7nwVs_Fwgo8GqyQrD0-98" value="数据服务提供" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="920" y="562.5" width="110" height="25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
