@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-30T09:24:36.235Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="oeb-i9vyEsfMkn3skOCn" version="13.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-30T09:26:01.451Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="qtd4uLs51T1naQgGQTyN" version="13.8.6" type="github">
   <diagram id="HMNT3NJ7cGjLUX8JYcZ2" name="Page-1">
     <mxGraphModel dx="2187" dy="746" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -313,6 +313,9 @@
         <mxCell id="f9UOwdN35FcGCHuNBS2K-107" value="消息队列" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="622" y="2045" width="115" height="72" as="geometry" />
         </mxCell>
+        <mxCell id="f9UOwdN35FcGCHuNBS2K-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="f9UOwdN35FcGCHuNBS2K-109" target="f9UOwdN35FcGCHuNBS2K-124">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="f9UOwdN35FcGCHuNBS2K-109" value="统计监控服务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="622" y="2145" width="115" height="72" as="geometry" />
         </mxCell>
@@ -337,8 +340,17 @@
         <mxCell id="f9UOwdN35FcGCHuNBS2K-120" value="直接使用、轻度改造" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="691" y="1738" width="114" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="f9UOwdN35FcGCHuNBS2K-126" value="保存数据" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="f9UOwdN35FcGCHuNBS2K-121" target="f9UOwdN35FcGCHuNBS2K-123">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="f9UOwdN35FcGCHuNBS2K-121" value="Pipeline" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="275.5" y="2156" width="102" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="f9UOwdN35FcGCHuNBS2K-123" value="DB" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="52" y="2240" width="115" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="f9UOwdN35FcGCHuNBS2K-124" value="ES" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="781" y="2141" width="60" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
