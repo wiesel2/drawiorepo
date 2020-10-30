@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-30T09:38:01.650Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="90zG3p6MQAEpmGUpxKuq" version="13.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-30T09:43:51.564Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="Ly_iM_rzUQQUPIOXx3UR" version="13.8.6" type="github">
   <diagram id="HMNT3NJ7cGjLUX8JYcZ2" name="Page-1">
     <mxGraphModel dx="2187" dy="746" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -353,6 +353,12 @@
         </mxCell>
         <mxCell id="f9UOwdN35FcGCHuNBS2K-133" value="&lt;h1&gt;概要说明&lt;/h1&gt;&lt;p&gt;1. 一个进程只运行一个网站的爬虫&lt;/p&gt;&lt;p&gt;2. 可以在多个节点上启动多个同样的爬虫&lt;/p&gt;&lt;p&gt;&lt;/p&gt;3. 同一类型的多个爬虫进程共享同一个Request消息队列&lt;p&gt;4. 数据下载是并发的，同时可以使用其他下载器&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;align=left;" vertex="1" parent="1">
           <mxGeometry x="60" y="1641" width="239" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="f9UOwdN35FcGCHuNBS2K-134" value="&lt;h1&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;数据保存提供2种方案：&lt;/font&gt;&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px ; font-weight: 400&quot;&gt;1. 存储到特定数据库中&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px ; font-weight: 400&quot;&gt;2. 存储到特定消息队列中（例如Kafka），再后后续服务消费队列&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;align=left;" vertex="1" parent="1">
+          <mxGeometry x="66" y="2239" width="257" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="f9UOwdN35FcGCHuNBS2K-135" value="&lt;h1&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;去重&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;1.&amp;nbsp; 一类爬虫共享一个去重集合&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;2. 通过清除去重集合实现反复抓取&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;align=left;" vertex="1" parent="1">
+          <mxGeometry x="573" y="1821" width="232" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
